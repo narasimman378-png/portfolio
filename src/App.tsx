@@ -1,4 +1,4 @@
-import { Route, Routes, BrowserRouter, Router } from "react-router-dom";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 import "./App.css";
 import "./index.css";
 import Banner from "./components/Home/banner";
