@@ -1,7 +1,7 @@
 function AbouTmE() {
   return (
     <>
-      <section className="py-10 px-10 animate-fade-in-up md:p-20" id="AboutMe">
+      <section className="py-10 px-10 animate-fade-in-up md:p-20 bg-[#FFF]" id="AboutMe">
         <div className="grid justify-between aligns md:grid lg:flex">
           <div className="content">
             <h2 className="text-left text-3xl font-bold text-black mb-5 animate-fade-in-up [animation-delay:100ms] md:text-5xl">
