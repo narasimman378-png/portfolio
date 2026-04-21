@@ -142,6 +142,10 @@ p {
   .bg-2 {
     background-attachment: unset;
   }
+
+  .overlay-one {
+    border-radius: unset;
+  }
 }
 
 header li {
