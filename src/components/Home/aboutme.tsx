@@ -18,7 +18,7 @@ function AbouTmE() {
           </div>
         </div>
       </section>
-      <section className="bg-2 bg-[#FFF]">
+      <section className="bg-2 bg-[#FFF] md:bg-[#FFF]">
         <div className="">
           <div className="grid grid-cols-2 overlay-one py-40 px-40">
             <div className="main-content mx-10 my-10"></div>
