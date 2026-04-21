@@ -144,7 +144,7 @@ p {
   }
 
   .overlay-one {
-    border-radius: unset;
+    border-radius: 20px;
   }
 }
 
