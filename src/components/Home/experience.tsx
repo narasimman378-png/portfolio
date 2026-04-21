@@ -20,7 +20,7 @@ function Experience() {
         }
     ];
     return(
-        <section className="py-10 px-10 md:p-20" id="Experience">
+        <section className="py-10 px-10 bg-[#FFF] md:p-20 bg-[#FFF]" id="Experience">
             <div className="grid md:flex justify-between">
                 <h2 className="text-left text-black text-3xl pb-4 font-bold animate-fade-in-up [animation-delay:100ms] md:text-5xl">Work Experience</h2>
                 <hr />
