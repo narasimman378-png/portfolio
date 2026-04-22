@@ -8,7 +8,7 @@ function AbouTmE() {
               About Me
             </h2>
             <p className="text-left text-sm text-black w-85 animate-fade-in-up [animation-delay:220ms] md:w-150 lg:w-200">
-              I am a dedicated Developer with 4+ years of experience in WordPress and React.js. Based in Coimbatore, I bridge the gap between complex ideas and high-performance digital solutions. My expertise spans custom WordPress dashboards, scalable React applications, and SEO-optimized platforms. I specialize in site optimization, consistently hitting 85%+ on Google PageSpeed Insights, and delivering clean, scalable code for industries ranging from healthcare to real estate.
+              I am a dedicated Developer with 4+ years of experience in WordPress Development and intermediate expertise in React.js. Based in Coimbatore, I bridge the gap between complex ideas and high-performance digital solutions. My expertise spans custom WordPress dashboards, scalable React applications, and SEO-optimized platforms. I specialize in site optimization, consistently hitting 85%+ on Google PageSpeed Insights, and delivering clean, scalable code for industries ranging from healthcare to real estate.
             </p>
           </div>
           <div className="btns animate-slide-in-up [animation-delay:320ms] mt-5 flex justify-end md:flex justify-start">
