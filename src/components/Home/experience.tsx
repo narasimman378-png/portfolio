@@ -1,7 +1,7 @@
 function Experience() {
     const exp = [
         {
-            id: "01-06-2020 to 31-12-2020",
+            id: "01-06-2020 to 31-04-2021",
             work: "Web Desinger",
             company: "Gravity Inno Solutions",
             phara: "As a Web Designer at Gravity Inno Solutions, I focused on creating visually engaging and highly functional digital experiences. My role bridged the gap between creative design and technical implementation."
