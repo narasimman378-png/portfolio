@@ -6,6 +6,7 @@ import BootstrapImg from "../../assets/bootstrap.png";
 import WordPressImg from "../../assets/wordpress.png";
 import PHPImg from "../../assets/php.png";
 import WoocommerecImg from "../../assets/social.png";
+import shopifyImg from "../../assets/shopify.png";
 
 function OurSkills() {
   const Skills = [
@@ -49,6 +50,11 @@ function OurSkills() {
       name: "PHP",
       persentage: "60%",
     },
+    {
+      id: shopifyImg,
+      name: "Shopify",
+      persentage: "70%",
+    }
   ];
   return (
     <section className="bg-Four">
