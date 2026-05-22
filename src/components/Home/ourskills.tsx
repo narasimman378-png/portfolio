@@ -7,6 +7,9 @@ import WordPressImg from "../../assets/wordpress.png";
 import PHPImg from "../../assets/php.png";
 import WoocommerecImg from "../../assets/social.png";
 import shopifyImg from "../../assets/shopify.png";
+import ElementorImg from "../../assets/elementor.png";
+import WpbeakImg from "../../assets/wpbakery-logo.png";
+import ACFImg from "../../assets/images.png";
 
 function OurSkills() {
   const Skills = [
@@ -54,6 +57,21 @@ function OurSkills() {
       id: shopifyImg,
       name: "Shopify",
       persentage: "70%",
+    },
+    {
+      id: ElementorImg,
+      name: Elementor,
+      persentage: "90%",
+    },
+    {
+      id: WpbeakImg,
+      name: wpbakery,
+      persentage: "50%",
+    },
+    {
+      id: ACFImg,
+      name: ACF,
+      persentage: "80%",
     }
   ];
   return (
