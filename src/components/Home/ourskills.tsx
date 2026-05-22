@@ -9,7 +9,7 @@ import WoocommerecImg from "../../assets/social.png";
 import shopifyImg from "../../assets/shopify.png";
 import ElementorImg from "../../assets/elementor.png";
 import WpbeakImg from "../../assets/wpbakery-logo.png";
-import ACFImg from "../../assets/images.png";
+import ACFImg from "../../assets/images.png";    
 
 function OurSkills() {
   const Skills = [
