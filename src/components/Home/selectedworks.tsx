@@ -4,9 +4,9 @@ function SelectedWorks() {
   const work = [
     {
       id: "1",
-      heading: "Custom WordPress Dashboard Suite",
+      heading: "Custom WordPress Feature Suite",
       phara:
-        "Designed and shipped internal-style dashboards on WordPress: Google Review, Video Consultant, Custom Service, and LMS reusable components, clear UX, and integrations aligned with client operations.",
+        "Designed and integrated specialized client-facing website modules—such as video consultation tools, review displays, and LMS components—into custom WordPress themes. Delivered smooth UX and seamless API integrations aligned with business operations..",
     },
     {
       id: "2",

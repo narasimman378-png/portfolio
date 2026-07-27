@@ -6,86 +6,99 @@ import BootstrapImg from "../../assets/bootstrap.png";
 import WordPressImg from "../../assets/wordpress.png";
 import PHPImg from "../../assets/php.png";
 import WoocommerecImg from "../../assets/social.png";
-import shopifyImg from "../../assets/shopify.png";
+import ShopifyImg from "../../assets/shopify.png";
 import ElementorImg from "../../assets/elementor.png";
 import WpbeakImg from "../../assets/wpbakery-logo.png";
-import ACFImg from "../../assets/images.png";    
+import ACFImg from "../../assets/images.png";
+import TailwindImg from "../../assets/tailwindcss-mark.96ee6a5a (1).svg";
+import GADSImg from "../../assets/logo.png";
 
 function OurSkills() {
   const Skills = [
     {
       id: WordPressImg,
       name: "WordPress",
-      persentage: "80%",
+      percentage: "80%",
     },
     {
       id: HTMLImg,
       name: "HTML",
-      persentage: "100%",
+      percentage: "100%",
     },
     {
       id: CSSImg,
       name: "CSS",
-      persentage: "100%",
+      percentage: "100%",
     },
     {
       id: JavascriptImg,
       name: "JavaScript",
-      persentage: "60%",
+      percentage: "60%",
     },
     {
       id: ReactImg,
       name: "React",
-      persentage: "70%",
+      percentage: "70%",
     },
     {
       id: BootstrapImg,
       name: "Bootstrap",
-      persentage: "80%",
+      percentage: "80%",
     },
     {
       id: WoocommerecImg,
       name: "Woo Commerce",
-      persentage: "70%",
+      percentage: "90%",
     },
     {
       id: PHPImg,
       name: "PHP",
-      persentage: "60%",
+      percentage: "60%",
     },
     {
-      id: shopifyImg,
+      id: ShopifyImg,
       name: "Shopify",
-      persentage: "70%",
+      percentage: "70%",
     },
     {
       id: ElementorImg,
-      name: Elementor,
-      persentage: "90%",
+      name: "Elementor",
+      percentage: "90%",
     },
     {
       id: WpbeakImg,
-      name: wpbakery,
-      persentage: "50%",
+      name: "WPBakery",
+      percentage: "50%",
     },
     {
       id: ACFImg,
-      name: ACF,
-      persentage: "80%",
-    }
+      name: "ACF",
+      percentage: "80%",
+    },
+    {
+      id: TailwindImg,
+      name: "Tailwind",
+      percentage: "80%",
+    },
+    {
+      id: GADSImg,
+      name: "Google Ads",
+      percentage: "40%",
+    },
   ];
+
   return (
     <section className="bg-Four">
       <div className="px-10 py-10 md:p-20">
         <h2 className="text-left text-3xl text-[white] mb-4 animate-fade-in-up md:text-5xl">Our Skills</h2>
         <div className="grid grid-cols-1 gap-5 md:grid-cols-4">
           {Skills.map((item) => (
-            <div className="animate-fade-in-up cards gap-5 aligns flex p-5 mt-5 shadow-sm rounded-2xl bg-[#ffffff0e]">
-              <img src={item.id} className="w-10" alt="" />
+            <div key={item.name} className="animate-fade-in-up cards gap-5 aligns flex p-5 mt-5 shadow-sm rounded-2xl bg-[#ffffff0e]">
+              <img src={item.id} className="w-10" alt={item.name} />
               <div className="">
                 <h5 className="text-left text-white">{item.name}</h5>
                 <p className="text-left text-white text-sm md:text-2xl">
-                  {item.persentage}
+                  {item.percentage}
                 </p>
               </div>
             </div>

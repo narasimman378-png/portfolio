@@ -54,14 +54,14 @@ function Footer() {
             <div className="faceBook border-1 border-[#2702028a] rounded-[50px] py-2 px-2">
               <a href="#">→ FaceBook</a>
             </div>
-            <div className="inSta border-1 border-[#2702028a] rounded-[50px] py-2 px-2">
+            {/* <div className="inSta border-1 border-[#2702028a] rounded-[50px] py-2 px-2">
               <a
                 href="https://www.instagram.com/narasimman_1999?igsh=ZDdid2tnZTlscjVk"
                 target="_blank"
               >
                 → Instagram
               </a>
-            </div>
+            </div> */}
             <div className="X border-1 border-[#2702028a] rounded-[50px] py-2 px-2">
               <a href="https://x.com/viji_vikram" target="_blank">
                 → X
@@ -69,7 +69,7 @@ function Footer() {
             </div>
           </div>
           <div className="Year">
-            <h2 className="text-black">Copyright @2025</h2>
+            <h2 className="text-black">Copyright @2026</h2>
           </div>
         </div>
       </div>
