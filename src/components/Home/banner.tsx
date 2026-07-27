@@ -15,7 +15,7 @@ function Banner() {
             </p>
 
             <div className="btns grid justify-items-start mt-5 gap-5 animate-slide-in-right [animation-delay:420ms] md:flex">
-              <a href="/new-resume-2026.pdf" download="narasimman-resume.pdf">
+              <a href="/narasimman-update-2026.pdf" download="narasimman-resume.pdf">
                 <button className="btn-1 bg-white text-black text-sm px-4 py-2 cursor-pointer font-bold rounded-sm transition-transform duration-300 hover:-translate-y-1 md:px-5 py-4">
                   Download My CV →
                 </button>
