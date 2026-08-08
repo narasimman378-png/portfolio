@@ -18,72 +18,72 @@ function OurSkills() {
     {
       id: WordPressImg,
       name: "WordPress",
-      percentage: "80%",
+      // percentage: "80%",
     },
     {
       id: HTMLImg,
       name: "HTML",
-      percentage: "100%",
+      // percentage: "100%",
     },
     {
       id: CSSImg,
       name: "CSS",
-      percentage: "100%",
+      // percentage: "100%",
     },
     {
       id: JavascriptImg,
       name: "JavaScript",
-      percentage: "60%",
+      // percentage: "60%",
     },
     {
       id: ReactImg,
       name: "React",
-      percentage: "70%",
+      // percentage: "70%",
     },
     {
       id: BootstrapImg,
       name: "Bootstrap",
-      percentage: "80%",
+      // percentage: "80%",
     },
     {
       id: WoocommerecImg,
       name: "Woo Commerce",
-      percentage: "90%",
+      // percentage: "90%",
     },
     {
       id: PHPImg,
       name: "PHP",
-      percentage: "60%",
+      // percentage: "60%",
     },
     {
       id: ShopifyImg,
       name: "Shopify",
-      percentage: "70%",
+      // percentage: "70%",
     },
     {
       id: ElementorImg,
       name: "Elementor",
-      percentage: "90%",
+      // percentage: "90%",
     },
     {
       id: WpbeakImg,
       name: "WPBakery",
-      percentage: "50%",
+      // percentage: "50%",
     },
     {
       id: ACFImg,
       name: "ACF",
-      percentage: "80%",
+      // percentage: "80%",
     },
     {
       id: TailwindImg,
       name: "Tailwind",
-      percentage: "80%",
+      // percentage: "80%",
     },
     {
       id: GADSImg,
       name: "Google Ads",
-      percentage: "40%",
+      // percentage: "40%",
     },
   ];
 
@@ -97,9 +97,9 @@ function OurSkills() {
               <img src={item.id} className="w-10" alt={item.name} />
               <div className="">
                 <h5 className="text-left text-white">{item.name}</h5>
-                <p className="text-left text-white text-sm md:text-2xl">
+                {/* <p className="text-left text-white text-sm md:text-2xl">
                   {item.percentage}
-                </p>
+                </p> */}
               </div>
             </div>
           ))}

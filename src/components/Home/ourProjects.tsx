@@ -1,5 +1,6 @@
 import ProOne from "../../assets/project-1.png";
 import ProTwo from "../../assets/project-2.png";
+import ProTwoTwo from "../../assets/prothreetwo.png";
 import ProThree from "../../assets/project-3.png";
 import ProFour from "../../assets/project-4.png";
 import ProFive from "../../assets/project-5.png";
@@ -15,21 +16,51 @@ import ProFourAlt from "../../assets/srimurugan.png";
 import ProFiveAlt from "../../assets/sudhangrapics.png";
 
 const projects = [
+
   { id: 1, title: "Sri Ramakrishna Hospital", desc: "Hospital and Healthcare", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://www.sriramakrishnahospital.com/", img: ProFour },
+
+
   { id: 2, title: "Her RCM", desc: "Healthcare", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://herrcm.com/", img: ProOne },
-  { id: 3, title: "Yaggna Group", desc: "Event Management and Coprate Company", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://www.yaggnagroup.com/", img: ProTwo },
-  { id: 4, title: "Gastro Care Coimbatore", desc: "Hospital and Healthcare", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://www.gastrocarecoimbatore.com/", img: ProThree },
-  { id: 5, title: "Health Basix", desc: "Healthcare", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://www.healthbasix.com/", img: ProFive },
-  { id: 6, title: "Sri Daksha Property Developers", desc: "Builders and Property Developers", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://sreedaksha.com/", img: ProSix },
-  { id: 7, title: "Ayyappa Technical Innovates", desc: "Fire and Safty Management", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://atinnovates.in/", img: ProSeven },
-  { id: 8, title: "Sri Daksha Landshapers", desc: "Builders and Property Developers", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://sreedaksha.com/", img: ProEight },
-  { id: 9, title: "Kumaraguru Property Developers", desc: "Builders and Property Developers", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://www.kumaraguruproperties.com/", img: ProNine },
-  { id: 10, title: "Sunset Flight Club", desc: "Travel and Tourism", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://www.sunsetflightclub.co.uk/", img: ProTen },
-  { id: 11, title: "Aaraspaces", desc: "Builders and Property Developers", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://www.aaraspaces.com/", img: ProOneAlt },
-  { id: 12, title: "Bareea", desc: "Organic Products Store", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://bareea.com/", img: ProTwoAlt },
-  { id: 13, title: "Siva Sri Groups", desc: "Builders and Property Developers", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://sivasrigroup.com/", img: ProThreeAlt },
-  { id: 14, title: "Sri Murugan Thirumana Mahal", desc: "Marriage and Event Management", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://srimuruganthirumanamahal.com/", img: ProFourAlt },
-  { id: 15, title: "Sudhan Graphics", desc: "Labels and Graphics products", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://sudhangraphics.co/", img: ProFiveAlt },
+
+
+  { id: 3, title: "Max Vserv IT Solutions", desc: "Information Technologies", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://maxvservit.netlify.app/", img: ProTwoTwo },
+
+  { id: 4, title: "Yaggna Group", desc: "Event Management and Coprate Company", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://www.yaggnagroup.com/", img: ProTwo },
+
+  { id: 5, title: "Gastro Care Coimbatore", desc: "Hospital and Healthcare", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://www.gastrocarecoimbatore.com/", img: ProThree },
+
+
+  { id: 6, title: "Health Basix", desc: "Healthcare", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://www.healthbasix.com/", img: ProFive },
+
+
+  { id: 7, title: "Sri Daksha Property Developers", desc: "Builders and Property Developers", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://sreedaksha.com/", img: ProSix },
+
+
+  { id: 8, title: "Ayyappa Technical Innovates", desc: "Fire and Safty Management", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://atinnovates.in/", img: ProSeven },
+
+
+  { id: 9, title: "Sri Daksha Landshapers", desc: "Builders and Property Developers", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://sreedaksha.com/", img: ProEight },
+
+
+  { id: 10, title: "Kumaraguru Property Developers", desc: "Builders and Property Developers", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://www.kumaraguruproperties.com/", img: ProNine },
+
+
+  { id: 11, title: "Sunset Flight Club", desc: "Travel and Tourism", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://www.sunsetflightclub.co.uk/", img: ProTen },
+
+
+  { id: 12, title: "Aaraspaces", desc: "Builders and Property Developers", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://www.aaraspaces.com/", img: ProOneAlt },
+
+
+  { id: 13, title: "Bareea", desc: "Organic Products Store", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://bareea.com/", img: ProTwoAlt },
+
+
+  { id: 14, title: "Siva Sri Groups", desc: "Builders and Property Developers", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://sivasrigroup.com/", img: ProThreeAlt },
+
+
+  { id: 15, title: "Sri Murugan Thirumana Mahal", desc: "Marriage and Event Management", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://srimuruganthirumanamahal.com/", img: ProFourAlt },
+
+
+  { id: 16, title: "Sudhan Graphics", desc: "Labels and Graphics products", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://sudhangraphics.co/", img: ProFiveAlt },
 ];
 
 function OurProjects() {
