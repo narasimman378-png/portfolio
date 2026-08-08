@@ -1,7 +1,2 @@
-<<<<<<< HEAD
 https://profound-baklava-cb3cdc.netlify.app/* https://narasimman-dev.netlify.app/:splat 301!
-=======
-/  https://narasimman-dev.netlify.app/  301!
-https://profound-baklava-cb3cdc.netlify.app/*  https://narasimman-dev.netlify.app/:splat  301!
-/*  /index.html  200
->>>>>>> 7324910 (project-file)
+/* /index.html 200
