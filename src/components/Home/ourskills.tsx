@@ -88,12 +88,13 @@ function OurSkills() {
   ];
 
   return (
-    <section className="bg-Four">
+    <div className="abFour">
+      <section className="bg-Four" data-reveal>
       <div className="px-10 py-10 md:p-20">
-        <h2 className="text-left text-3xl text-[white] mb-4 animate-fade-in-up md:text-5xl">Our Skills</h2>
-        <div className="grid grid-cols-1 gap-5 md:grid-cols-4">
-          {Skills.map((item) => (
-            <div key={item.name} className="animate-fade-in-up cards gap-5 aligns flex p-5 mt-5 shadow-sm rounded-2xl bg-[#ffffff0e]">
+        <h2 className="text-left text-3xl text-[white] mb-4 md:text-5xl">Our Skills</h2>
+        <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
+          {Skills.map((item, index) => (
+            <div key={item.name} className="cards gap-5 aligns flex p-5 mt-5 shadow-sm rounded-2xl bg-[#f3fcff2a]" data-reveal style={{ "--reveal-delay": `${(index % 4) * 80}ms` } as React.CSSProperties}>
               <img src={item.id} className="w-10" alt={item.name} />
               <div className="">
                 <h5 className="text-left text-white">{item.name}</h5>
@@ -106,6 +107,9 @@ function OurSkills() {
         </div>
       </div>
     </section>
+
+    </div>
+    
   );
 }
 

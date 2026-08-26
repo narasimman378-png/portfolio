@@ -1,3 +1,13 @@
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Navigation, Autoplay, A11y } from "swiper/modules";
+
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
+import { Link } from "react-router-dom";
+
+import Arrow from "../../assets/arrows.png";
 import ProOne from "../../assets/project-1.png";
 import ProTwo from "../../assets/project-2.png";
 import ProTwoTwoT from "../../assets/max-co.png";
@@ -18,106 +28,258 @@ import ProFourAlt from "../../assets/srimurugan.png";
 import ProFiveAlt from "../../assets/sudhangrapics.png";
 
 const projects = [
+  {
+    id: 1,
+    expo: "01",
+    title: "Sri Ramakrishna Hospital",
+    desc: "Hospital and Healthcare",
+    phara:
+      "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.",
+    link: "https://www.sriramakrishnahospital.com/",
+    img: ProFour,
+  },
 
-  { id: 1, title: "Sri Ramakrishna Hospital", desc: "Hospital and Healthcare", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://www.sriramakrishnahospital.com/", img: ProFour },
+  {
+    id: 2,
+    expo: "02",
+    title: "Her RCM",
+    desc: "Healthcare",
+    phara:
+      "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.",
+    link: "https://herrcm.com/",
+    img: ProOne,
+  },
 
+  {
+    id: 3,
+    expo: "03",
+    title: "Max Vserv IT Solutions",
+    desc: "Information Technologies",
+    phara:
+      "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.",
+    link: "https://maxvservit.netlify.app/",
+    img: ProTwoTwo,
+  },
 
-  { id: 2, title: "Her RCM", desc: "Healthcare", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://herrcm.com/", img: ProOne },
+  {
+    id: 4,
+    expo: "04",
+    title: "Travel Do",
+    desc: "Travel & Tourism",
+    phara:
+      "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.",
+    link: "https://tideway-travel.vercel.app/",
+    img: ProTwoTwoX,
+  },
 
+  {
+    id: 5,
+    expo: "05",
+    title: "MaxVserv & Co.",
+    desc: "Real Estate",
+    phara:
+      "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.",
+    link: "https://maxvservco.vercel.app/",
+    img: ProTwoTwoT,
+  },
 
-  { id: 3, title: "Max Vserv IT Solutions", desc: "Information Technologies", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://maxvservit.netlify.app/", img: ProTwoTwo },
+  {
+    id: 6,
+    expo: "06",
+    title: "Yaggna Group",
+    desc: "Event Management and Coprate Company",
+    phara:
+      "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.",
+    link: "https://www.yaggnagroup.com/",
+    img: ProTwo,
+  },
 
+  {
+    id: 7,
+    expo: "07",
+    title: "Gastro Care Coimbatore",
+    desc: "Hospital and Healthcare",
+    phara:
+      "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.",
+    link: "https://www.gastrocarecoimbatore.com/",
+    img: ProThree,
+  },
 
-  { id: 4, title: "Travel Away", desc: "Travel & Tourism", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://tideway-travel.vercel.app/", img: ProTwoTwoX },
+  {
+    id: 8,
+    expo: "08",
+    title: "Health Basix",
+    desc: "Healthcare",
+    phara:
+      "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.",
+    link: "https://www.healthbasix.com/",
+    img: ProFive,
+  },
 
+  {
+    id: 9,
+    expo: "09",
+    title: "Sri Daksha Property Developers",
+    desc: "Builders and Property Developers",
+    phara:
+      "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.",
+    link: "https://sreedaksha.com/",
+    img: ProSix,
+  },
 
-  { id: 5, title: "MaxVserv & Co.", desc: "Real Estate", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "maxvservco.vercel.app", img: ProTwoTwoT },
+  {
+    id: 10,
+    expo: "10",
+    title: "Ayyappa Technical Innovates",
+    desc: "Fire and Safty Management",
+    phara:
+      "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.",
+    link: "https://atinnovates.in/",
+    img: ProSeven,
+  },
 
+  {
+    id: 11,
+    expo: "11",
+    title: "Sri Daksha Landshapers",
+    desc: "Builders and Property Developers",
+    phara:
+      "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.",
+    link: "https://sreedaksha.com/",
+    img: ProEight,
+  },
 
-  { id: 6, title: "Yaggna Group", desc: "Event Management and Coprate Company", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://www.yaggnagroup.com/", img: ProTwo },
+  {
+    id: 12,
+    expo: "12",
+    title: "Kumaraguru Property Developers",
+    desc: "Builders and Property Developers",
+    phara:
+      "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.",
+    link: "https://www.kumaraguruproperties.com/",
+    img: ProNine,
+  },
 
-  { id: 7, title: "Gastro Care Coimbatore", desc: "Hospital and Healthcare", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://www.gastrocarecoimbatore.com/", img: ProThree },
+  {
+    id: 13,
+    expo: "13",
+    title: "Sunset Flight Club",
+    desc: "Travel and Tourism",
+    phara:
+      "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.",
+    link: "https://www.sunsetflightclub.co.uk/",
+    img: ProTen,
+  },
 
+  {
+    id: 14,
+    expo: "14",
+    title: "Aaraspaces",
+    desc: "Builders and Property Developers",
+    phara:
+      "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.",
+    link: "https://www.aaraspaces.com/",
+    img: ProOneAlt,
+  },
 
-  { id: 8, title: "Health Basix", desc: "Healthcare", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://www.healthbasix.com/", img: ProFive },
+  {
+    id: 15,
+    expo: "15",
+    title: "Bareea",
+    desc: "Organic Products Store",
+    phara:
+      "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.",
+    link: "https://bareea.com/",
+    img: ProTwoAlt,
+  },
 
+  {
+    id: 16,
+    expo: "16",
+    title: "Siva Sri Groups",
+    desc: "Builders and Property Developers",
+    phara:
+      "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.",
+    link: "https://sivasrigroup.com/",
+    img: ProThreeAlt,
+  },
 
-  { id: 9, title: "Sri Daksha Property Developers", desc: "Builders and Property Developers", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://sreedaksha.com/", img: ProSix },
+  {
+    id: 17,
+    expo: "17",
+    title: "Sri Murugan Thirumana Mahal",
+    desc: "Marriage and Event Management",
+    phara:
+      "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.",
+    link: "https://srimuruganthirumanamahal.com/",
+    img: ProFourAlt,
+  },
 
-
-  { id: 10, title: "Ayyappa Technical Innovates", desc: "Fire and Safty Management", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://atinnovates.in/", img: ProSeven },
-
-
-  { id: 11, title: "Sri Daksha Landshapers", desc: "Builders and Property Developers", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://sreedaksha.com/", img: ProEight },
-
-
-  { id: 12, title: "Kumaraguru Property Developers", desc: "Builders and Property Developers", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://www.kumaraguruproperties.com/", img: ProNine },
-
-
-  { id: 13, title: "Sunset Flight Club", desc: "Travel and Tourism", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://www.sunsetflightclub.co.uk/", img: ProTen },
-
-
-  { id: 14, title: "Aaraspaces", desc: "Builders and Property Developers", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://www.aaraspaces.com/", img: ProOneAlt },
-
-
-  { id: 15, title: "Bareea", desc: "Organic Products Store", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://bareea.com/", img: ProTwoAlt },
-
-
-  { id: 16, title: "Siva Sri Groups", desc: "Builders and Property Developers", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://sivasrigroup.com/", img: ProThreeAlt },
-
-
-  { id: 17, title: "Sri Murugan Thirumana Mahal", desc: "Marriage and Event Management", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://srimuruganthirumanamahal.com/", img: ProFourAlt },
-
-
-  { id: 18, title: "Sudhan Graphics", desc: "Labels and Graphics products", phara: "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.", link: "https://sudhangraphics.co/", img: ProFiveAlt },
+  {
+    id: 18,
+    expo: "18",
+    title: "Sudhan Graphics",
+    desc: "Labels and Graphics products",
+    phara:
+      "I design, train, and deploy AI models that turn data into real-world decisions from computer vision to large-scale systems.",
+    link: "https://sudhangraphics.co/",
+    img: ProFiveAlt,
+  },
 ];
 
 function OurProjects() {
   return (
-    <section className="px-6 md:px-10 py-10 bg-[#FFF]" id="Ourprojects">
-      <h2 className="text-black text-left text-4xl mb-12 font-medium">
-        Our Selected Projects
-      </h2>
-
-      <div className="flex flex-col gap-10">
-        {projects.map((project, index) => (
-          <div
-            key={project.id}
-            className="sticky top-24 w-full bg-[#fffae5] rounded-[20px] overflow-hidden"
-            style={{ marginTop: `${index * 20}px` }}
+    <section className="OverSer bg-[#d5edff] px-10 py-10 rounded-2xl" id="Ourprojects">
+      <div className="grid grid-cols-1 gap-10">
+        <div className="conts_sec">
+          <h2 className="text-3xl text-left text-[#0A2947] leading-snug md:text-5xl lg:text-5xl">
+            Our Projects
+          </h2>
+        </div>
+        <div className="slude">
+          <Swiper
+            modules={[Pagination, Navigation, Autoplay, A11y]}
+            spaceBetween={20}
+            slidesPerView={1}
+            pagination={{ clickable: true, dynamicBullets: true }}
+            autoplay={{
+              delay: 5000,
+            }}
+            speed={1000}
+            breakpoints={{
+              767: {
+                slidesPerView: 2,
+                spaceBetween: 30,
+              },
+              1080: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+              },
+            }}
           >
-            <div className="grid grid-cols-1 md:grid-cols-2 items-center min-h-[28rem]">
-              <div className="py-12 px-8 md:px-16 flex flex-col justify-between h-full">
-                <div>
-                  <h1 className="text-black text-left text-2xl leading-tight mb-4 md:text-2xl lg:text-4xl">
-                    {project.title} <br />
-                    <span className="text-[black] text-sm md:text-sm lg:text-2xl">{project.desc}</span>
-                  </h1>
+            {projects.map((item) => (
+              <SwiperSlide key={item.id}>
+                <div className="serv bg-white px-2 py-2 rounded-4xl">
+                  <img className="rounded-4xl" src={item.img} alt="" />
+                  <div className="conts px-5 py-5">
+                    <p className="text-left text-4xl text-black mb-2 text-transparent [-webkit-text-stroke:0.8px_black]">{item.expo}</p>
+                    <h1 className="text-[#000] text-left text-xl font-medium">{item.title}</h1>
+                    <p className="text-left text-[#312f2f] mt-2 mb-5 text-sm">
+                      {item.desc}
+                    </p>
+                    <div className="divs block  items-baseline text-left text-sm text-black w-35 py-2 ">
+                      <Link to={item.link} className="flex align_middle gap-2">
+                        
+                        Visit Site
+                        <img className="w-10" src={Arrow} alt="" />
+                      </Link>
+                    </div>
+                  </div>
                 </div>
-
-                <div className="mt-12">
-                  <p className="text-[black] text-sm text-left max-w-sm mb-8 hidden">
-                    {project.phara}
-                  </p>
-                  <a href={project.link} target="_blank" rel="noreferrer">
-                    <button className="group cursor-pointer flex items-center gap-2 text-black border border-black/20 px-8 py-4 rounded-full hover:bg-[#610b0b] hover:text-white transition-all duration-300">
-                      View Project
-                      <span className="group-hover:translate-x-1 transition-transform">→</span>
-                    </button>
-                  </a>
-                </div>
-              </div>
-
-              <div className="bg-[#620606fc] flex items-center justify-center p-6 md:p-6 lg:p-12 min-h-[13.75rem] md:min-h-full">
-                <img
-                  src={project.img}
-                  alt={project.title}
-                  className="rounded-2xl w-full h-full object-cover shadow-lg"
-                />
-              </div>
-            </div>
-          </div>
-        ))}
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
       </div>
     </section>
   );
